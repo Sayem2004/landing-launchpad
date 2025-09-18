@@ -1,62 +1,129 @@
-
 .raleway-css {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
 }
 
 
-.inter-css{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
+.inter-css {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
 }
 
 
 /* header style */
-.header{
+.header {
     background-image: url(../pictures/Assets/Hero-bg.png);
 
 }
 
 /* button style */
-.button{
+.button {
     background-color: #4E47FF;
     color: white;
     font-size: 16px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 12px 36px;
     font-weight: bold;
 }
+
 /* nav style */
 nav {
     display: flex;
-     justify-content: space-between; 
-     align-items: center; 
-     margin: 0px 150px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px;
 }
-.nav-title{
+
+.nav-title {
     font-size: 34px;
     color: rgba(78, 71, 255, 1);
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
 
 }
 
 /* ========================= */
-.nav-heading{
+.nav-heading {
     text-align: center;
     padding: 158px 267.5px 152px 267.5px;
 }
-.nav-heading-text{
+
+.nav-heading-text {
     font-size: 65px;
     color: #252432;
     font-weight: bold;
+
+
+}
+
+/* action section */
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 159px 116px 141px;
+}
+
+.action-section {
+    padding: 62.5px 220px 62.5px 0px;
+}
+
+.action-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action-paragraph {
+    font-size: 24px;
+    color: #252432;
+    font-weight: 200;
+
+}
+
+.image {
+    height: 328px;
+    width: 403px;
+    border-radius: 15px;
+}
+
+/* Productive Users Section */
+.background-color{
+    background-color: #cecde4;
+    padding: 50px 142px;
+    margin: 116px 159px 137px 141px ;
+    border-radius: 15px;
+
+}
+.Centered-title {
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    
+    
+}
+.Productive{
+    display: flex;
+    justify-content: space-between;
     
 
+}
+.users{
+    font-size: 80px;
+    color: rgba(78, 71, 255, 1);
+    margin: 0px;
+    font-weight: bold;
+}
+
+.users-clasification{
+    font-size: 20px;
+    font-weight: 300;
 }
