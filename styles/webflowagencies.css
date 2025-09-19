@@ -29,6 +29,7 @@
     border-radius: 10px;
     padding: 12px 36px;
     font-weight: bold;
+    margin: 20px;
 }
 
 /* nav style */
@@ -176,7 +177,33 @@ nav ul li {
 .say {
     padding: 30px;
     border-radius: 20px;
-    box-shadow: 0px 6px 50px 0px rgba(190, 217, 220, 0.974);
+    box-shadow: 0px 10px 10px 0px rgba(190, 217, 220, 0.974);
+        background-color: rgb(226, 204, 204);
+
     
    
+}
+/* focus style   */
+.focus{
+    text-align: center;
+    margin: 144px 159px 85px 141px;
+    background-color: rgb(228, 228, 228);
+}
+.focus-title{
+    font-size: 50px;
+    padding: 71px 312px 0px 312px;
+}
+.focus-text {
+    font-size: 18px;
+    color: #555;
+   
+}
+.focus-image {
+    max-width: 100%;
+    border-radius: 16px;
+    padding:0px 150px 50px 150px;
+}
+
+.img{
+    border-radius: 30px;
 }
