@@ -12,7 +12,8 @@
     /* font-weight: <weight>; */
     font-style: normal;
 }
-body{
+
+body {
     background-color: #e4e4ea;
 }
 
@@ -32,6 +33,10 @@ body{
     padding: 12px 36px;
     font-weight: bold;
     margin: 20px;
+}
+.button:hover {
+  background-color: #caaf7a;
+
 }
 
 /* nav style */
@@ -180,67 +185,112 @@ nav ul li {
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0px 10px 10px 0px rgba(190, 217, 220, 0.974);
-        background-color: rgb(226, 204, 204);
+    background-color: rgb(245, 242, 242);
 
-    
-   
+
+
 }
+
 /* focus style   */
-.focus{
+.focus {
     text-align: center;
     margin: 144px 159px 85px 141px;
-    background-color: rgb(228, 228, 228);
+    background-color: white;
 }
-.focus-title{
+
+.focus-title {
     font-size: 50px;
     padding: 71px 312px 0px 312px;
 }
+
 .focus-text {
     font-size: 18px;
     color: #555;
-   
+
 }
+
 .focus-image {
     max-width: 100%;
     border-radius: 16px;
-    padding:0px 150px 50px 150px;
+    padding: 0px 150px 50px 150px;
 }
 
-.img{
+.img {
     border-radius: 30px;
 }
 
 /* Get in touch style */
 
 .get-touch {
-  display: flex;
-  justify-content: center;   
-  align-items: center;       
-  gap: 115px;                 
-  padding: 80px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+    padding: 80px 150px;
 }
 
 .touch-title {
-  font-size: 90px;
-  font-weight: bold;
-  color: black;
+    font-size: 90px;
+    font-weight: bold;
+    color: black;
 }
-.touch-cloum{
+
+.touch-cloum {
     display: flex;
     max-width: 50%;
 }
-.touch-from{
- height: 64px;
-  border-radius: 5px;
-  background-color: white;
-  display: block;
-  width: 100%;
-  padding: 10px 50px;
-  margin-bottom: 24px;
-  border: none;
+
+.touch-from {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 50px;
+    margin-bottom: 24px;
+    border: none;
 }
 
-.touch-fr-ti{
-   font-size: 18px;
-   color: black;
+.touch-fr-ti {
+    font-size: 18px;
+    color: black;
+}
+
+/* footer title */
+.footer {
+    text-align: center;
+    background-color: white;
+
+}
+
+.footer-st {
+    padding: 104px 455px 103px 454px;
+}
+
+.footer-title {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.footer-paragraph {
+    font-size: 16px;
+    color: #8987A1;
+}
+
+
+footer ul li {
+    list-style: none;
+    margin-right: 48px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #8987A1
+}
+
+footer ul {
+    display: flex;
+
 }
