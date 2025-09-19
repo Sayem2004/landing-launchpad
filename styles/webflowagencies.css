@@ -95,35 +95,88 @@ nav ul li {
 }
 
 /* Productive Users Section */
-.background-color{
+.background-color {
     background-color: #cecde4;
     padding: 50px 142px;
-    margin: 116px 159px 137px 141px ;
+    margin: 116px 159px 137px 141px;
     border-radius: 15px;
 
 }
+
 .Centered-title {
     font-size: 38px;
     font-weight: bold;
     color: #252432;
     text-align: center;
-    
-    
-}
-.Productive{
-    display: flex;
-    justify-content: space-between;
-    
+
 
 }
-.users{
+
+.Productive {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.users {
     font-size: 80px;
     color: rgba(78, 71, 255, 1);
     margin: 0px;
     font-weight: bold;
 }
 
-.users-clasification{
+.users-clasification {
     font-size: 20px;
     font-weight: 300;
+    margin-top: 8px;
+}
+
+
+/* Reviewer says style */
+.says-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.all-says {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 0px 159px 116px 141px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.reviewer-name {
+    font-size: 12px;
+    font-weight: 600;
+    color: #7b7a82;
+    margin: 0;
+}
+
+.review-date {
+    font-size: 10px;
+    color: #999;
+    margin: 0;
+}
+
+.say {
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 50px 0px rgba(190, 217, 220, 0.974);
+    
+   
 }
